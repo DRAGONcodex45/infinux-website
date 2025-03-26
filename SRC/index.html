@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>InfinuxWeb Web3 Development Agency</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <img id="logo" src="logo1.png" alt="infinux logo">
+        <button class="hamburger" id="hamburger">☰</button>
+        <ul class="nav-links" id="nav-links">
+            <button class="close-menu" id="close-menu">✖</button>
+            <li><a href="#">Web 3.0</a></li>
+            <li><a href="#">AI Solution</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Services ▼</a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Contact </a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </li>
+            <li><button class="contact-btn">Chat with us<i class="fa fa-telegram"></i></button></li>
+        </ul>
+    </nav>
+    <!--HERO SECTION-->
+    <div id="hero-background">
+        <div id="hero-section">
+            <div class="hero-content">
+                <p class="first-text">Solution-Oriented Services</p>
+                <h1>Certified and Experienced Web3 Development and Marketing Agency</h1>
+                <p class="hero-bigtext">
+                    Harness the transformative power of blockchain, cryptography, and decentralization with Infinux
+                    Web’s expertise in Web3, AI development, and marketing. Remove intermediaries, enhance asset
+                    security, protect intellectual property, and foster trust through advanced smart contract solutions
+                    tailored for today’s digital era.
+                </p>
+                <button class="getBtn">Get Started Now</button>
+            </div>
+
+            <!---FORM SECTION-->
+            <div id="form-card">
+                <form id="form-application">
+                    <h2><span
+                            style="text-decoration: underline; text-decoration-color: rgb(103, 58, 183); text-decoration-thickness: 4px;">Your
+                        </span>First Consultation is <span
+                            style="background-image: linear-gradient(to right, rgb(103, 58, 183), rgb(33, 150, 243)); padding: 5px;">FREE!</span>
+                    </h2>
+                    <div class="form-split-1">
+                        <div class="form-group">
+                            <label id="name">Enter name</label></br>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+                        </div>
+                        <div class="form-group">
+                            <label id="email">Company</lable></br>
+                                <input type="text" id="company" name="company name" required placeholder="Company name">
+                        </div>
+                    </div>
+                    <div class="form-split-2">
+                        <div class="form-group">
+                            <label id="email">Email</label></br>
+                            <input type="text" id="email" name="email address" required placeholder="Email address">
+                        </div>
+                        <div class="form-group">
+                            <label id="phone">Phone</label></br>
+                            <input type="number" id="phone" name="phone number" required placeholder="Phone number">
+                        </div>
+                    </div>
+                    <div class="form-split-3">
+                        <div class="form-group">
+                            <label id="telegram">Telegram ID</label></br>
+                            <input type="text" id="telegram" name="telegram" required placeholder="Enter telegram ID">
+                        </div>
+                        <div class="form-group">
+                            <label id="service"></label></br>
+                            <select id="service" name="Choose our services">
+                                <option value="Select Product">Select Requirements</option>
+                                <option value="Web3 DApps development">Web3 DApp development</option>
+                                <option value="smart contracts solution">Smart Contracts Development</option>
+                                <option value="NFT marketplace">NFT Marketplace</option>
+                                <option value="web3 metaverse game">Web3 Metaverse Game</option>
+                                <option value="Decentralized finance (DEFi)">Decentralized Finance (DeFi)</option>
+                                <option value="Business Intelligence service">Business Intellience Service</option>
+                                <option value="AI development">AI Development</option>
+                                <option value="Blockchain integration">Blockchain Integration</option>
+                                <option value="web3 Marketing solutions">Web3 Marketing Solutions</option>
+                                <option value="web3 project management">Web3 Project management</option>
+                                <option value="Tokenomics development">Tokenomics Development</option>
+                                <option value="Whitepaper creation & Design">Whitepaper creation & Design</option>
+                                <option value="Token Launchpad">Token Launchpad</option>
+                                <option value="Token Lisitng Service">Token Listing Service</option>
+                                <option value="Exchange & Wallet Integration">Exchange & Wallet Integration</option>
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label id="coverletter">Message</label></br>
+                        <textarea value="text" id="coverletter" name="coverletter" rows="4" required
+                            placeholder="Enter your message"></textarea>
+                    </div>
+                    <div class="btn">
+                        <button class="form-btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!--INFINITE STROLLER-->
+    <div class="scrolling-wrapper">
+        <div class="scrolling-content">
+            <!-- DUPLICATE CONTENT FOR SEAMLESS SCROLLING -->
+            <div class="scroll-item">
+                <img src="experience_2303934.png">
+                <div>
+                    <div class="infiniteTitle">6 Years+</div>
+                    <div class="infiniteText">Blockchain & Web3</div>
+                </div>
+            </div>
+
+            <div class="scroll-item">
+                <img src="group.png">
+                <div>
+                    <div class="infiniteTitle">10</div>
+                    <div class="infiniteText">Team Members</div>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <img src="security.png">
+                <div>
+                    <div class="infiniteTitle">Highly</div>
+                    <div class="infiniteText">Secured Codes</div>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <img src="feedback_10871778.png">
+                <div>
+                    <div class="infiniteTitle">Happy</div>
+                    <div class="infiniteText">Clients Feeback</div>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <img src="artificial-intelligence.png">
+                <div>
+                    <div class="infiniteTitle">3 Years+</div>
+                    <div class="infiniteText">AI Development</div>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <img src="start-up.png">
+                <div>
+                    <div class="infiniteTitle">100+</div>
+                    <div class="infiniteText">Completed Projects</div>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <img src="pencil.png">
+                <div>
+                    <div class="infiniteTitle">Unlimited</div>
+                    <div class="infiniteText">Revisions</div>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <img src="text-message_7008130.png">
+                <div>
+                    <div class="infiniteTitle">24/7</div>
+                    <div class="infiniteText">Support</div>
+                </div>
+            </div>
+            <!-- DUPLICATE ITEMS FOR CONTINUOUS LOOP -->
+            <div class="scroll-item">
+                <img src="experience_2303934.png">
+                <div>
+                    <div class="infiniteTitle">6 Years+</div>
+                    <div class="infiniteText">Blockchain & Web3</div>
+                </div>
+            </div>
+
+            <div class="scroll-item">
+                <img src="group.png">
+                <div>
+                    <div class="infiniteTitle">10</div>
+                    <div class="infiniteText">Team Members</div>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <img src="security.png">
+                <div>
+                    <div class="infiniteTitle">Highly</div>
+                    <div class="infiniteText">Secured Codes</div>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <img src="feedback_10871778.png">
+                <div>
+                    <div class="infiniteTitle">Happy</div>
+                    <div class="infiniteText">Clients Feeback</div>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <img src="artificial-intelligence.png">
+                <div>
+                    <div class="infiniteTitle">3 Years+</div>
+                    <div class="infiniteText">AI Development</div>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <img src="start-up.png">
+                <div>
+                    <div class="infiniteTitle">100+</div>
+                    <div class="infiniteText">Completed Projects</div>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <img src="pencil.png">
+                <div>
+                    <div class="infiniteTitle">Unlimited</div>
+                    <div class="infiniteText">Revisions</div>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <img src="text-message_7008130.png">
+                <div>
+                    <div class="infiniteTitle">24/7</div>
+                    <div class="infiniteText">Support</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--WEB3 CONTENT AND ABOUT-->
+
+    <div id="web3">
+        <p class="web3-first-text">WE ARE EXPERIENCED AND</p>
+        <h3><span style="color:rgb(233, 30, 99)">Top-rated</span><span style="color: rgb(5, 7, 72)"> Web3 , AI
+                Development
+
+                </br>and Marketing Company</span></h3>
+        <p class="web3-bigtext">At Infinux Web, we are at the forefront of innovation, merging the power of Web3,
+            AI,
+            and cutting-edge marketing to help businesses thrive in the digital era. Our expertise spans blockchain
+            development, AI-driven automation, smart contract solutions, decentralized applications (dApps), and
+            advanced digital marketing strategies tailored for the next-generation internet.
+
+            Whether you're launching an NFT marketplace, a DeFi platform, an AI-powered solution, or scaling your
+            brand
+            with data-driven marketing, we provide end-to-end solutions to bring your vision to life.
+        </p>
+        <h4><span style="color: rgb(5, 7, 72)">Choose Our Best Web3 Development Services.</span></h4>
+        <p class="web3-bigtext">
+            Elevate your project with our premier Web3 development services, designed to harness the transformative
+            power of decentralized technologies. Our expert team specializes in creating robust and scalable
+            blockchain
+            solutions tailored to your specific needs, whether it’s building dApps, smart contracts, or NFT
+            marketplaces. artner with us to stay ahead in the rapidly evolving digital landscape and make your mark
+            in
+            the Web3 revolution.
+        </p>
+        <div class="web3-service">
+            <div class="box-split">
+                <div class="web3box">
+                    <p class="web3-main-title">Web3 Development</p>
+                    <p class="web3-title-main-description">We provide cutting-edge Web3 development services, including
+                        blockchain integration, smart contracts, decentralized applications (dApps), NFT solutions, and
+                        secure digital asset management for businesses.
+                    </p>
+                    <div>
+                        <button class="web3-action-btn">Get Started</button>
+                    </div>
+                </div>
+                <div class="web3box-2">
+                    <img id="exchange" src="smart-contracts.png" height="60px;" width="60px;">
+                    <p class="web3-title">Smart Contract Development</p>
+                    <p class="web3-title-description">We offer secure, efficient smart contract development, ensuring
+                        automation, transparency, and trust for blockchain-based applications and digital transactions.
+                    </p>
+                </div>
+                <div class="web3box-3">
+                    <img id="exchange" src="wallet.png" height="60px;" width="60px;">
+                    <p class="web3-title">AI Solutions</p>
+                    <p class="web3-title-description">We provide advanced AI development and solutions, including
+                        automation, machine learning, data analysis, and intelligent systems for businesses.
+                    </p>
+                </div>
+            </div>
+            <div class="box2-split">
+                <div class="web3box-4">
+                    <img id="exchange" src="exchange.png" height="60px;" width="60px;">
+                    <p class="web3-title">Blockchain Solution</p>
+                    <p class="web3-title-description">We deliver secure and scalable blockchain solutions, including
+                        decentralized applications, smart contracts, asset tokenization, and enterprise blockchain
+                        integration.
+                    </p>
+                </div>
+                <div class="web3box-5">
+                    <img id="exchange" src="network.png" height="60px;" width="60px;">
+                    <p class="web3-title">NFT Marketplace Development</p>
+                    <p class="web3-title-description">We build NFT marketplaces with secure smart contracts, multi-chain
+                        support, minting, staking systems, and seamless digital asset transactions.
+                    </p>
+                </div>
+                <div class="web3box-6">
+                    <img id="exchange" src="exchange.png" height="60px;" width="60px;">
+                    <p class="web3-title">Web3 Marketing</p>
+                    <p class="web3-title-description">Our Web3 marketing services include community building, influencer
+                        collaborations, content strategy, PR, and targeted growth campaigns for blockchain and crypto
+                        projects.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!--CARD CONTAINER STARTS-->
+    <div id="card-container-wrapper">
+        <div class="cardContainer">
+            <!-- Left Section -->
+            <div class="left-panel">
+                <div class="card-heading">Empower your venture with transformative Web3 services designed for growth.
+                </div>
+                <hr>
+                <p class="card-heading-smalltext">Leveraging real-world expertise, our professionals create and refine
+                    innovative Web3 solutions, ensuring a perfect fit for your business ambitions.</p>
+
+                <div class="menu">
+                    <button class="menu-item active" data-target="defi">Decentralized Finance</button>
+                    <button class="menu-item" data-target="crypto">Cryptocurrency</button>
+                    <button class="menu-item" data-target="presale">Presale</button>
+                    <button class="menu-item" data-target="nft">NFT</button>
+                    <button class="menu-item" data-target="marketing">Marketing</button>
+                    <button class="menu-item" data-target="listing">Listing Service</button>
+                </div>
+            </div>
+
+            <!-- Right Section -->
+            <div class="right-panel">
+                <div class="card active" id="defi">
+                    <div class="nft-card-container">
+                        <div class="nft-card-split">
+                            <div class="nft-card">
+                                <div class="card-title">Smart Contract</div>
+                                <hr>
+                                <p class="nft-card-description">Choose our secure smart contract development ensures
+                                    automation, transparency, and trust for blockchain applications.</p>
+                            </div>
+
+                            <div class="nft-card">
+                                <div class="card-title">Exchange Development</div>
+                                <hr>
+                                <p class="nft-card-description">Choose our secure, scalable, and feature-rich crypto
+                                    exchange development for seamless trading, high liquidity, and compliance.</p>
+                            </div>
+                        </div>
+                        <div class="nft-card-split">
+                            <div class="nft-card">
+                                <div class="card-title">DApps Solutions</div>
+                                <hr>
+                                <p class="nft-card-description">Our robust and scalable DApp solutions ensure secure,
+                                    efficient, and decentralized blockchain-powered applications with seamless
+                                    functionality.</p>
+                            </div>
+
+                            <div class="nft-card">
+                                <div class="card-title">DAO Service</div>
+                                <hr>
+                                <p class="nft-card-description">Our DAO solutions provide secure, transparent, and
+                                    automated governance for decentralized decision-making and community-driven
+                                    organizations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card" id="crypto">
+                    <div class="nft-card-container">
+                        <div class="nft-card-split">
+                            <div class="nft-card">
+                                <div class="card-title">Token Development</div>
+                                <hr>
+                                <p class="nft-card-description">Our token development service creates secure, scalable,
+                                    and customized blockchain-based tokens for businesses and projects.</p>
+                            </div>
+
+                            <div class="nft-card">
+                                <div class="card-title">Crypto Wallets</div>
+                                <hr>
+                                <p class="nft-card-description">Our crypto wallet ensures security, multi-currency
+                                    support, fast transactions, DeFi integration, and cross-platform accessibility.</p>
+                            </div>
+                        </div>
+                        <div class="nft-card-split">
+                            <div class="nft-card">
+                                <div class="card-title">Crypto Payment</div>
+                                <hr>
+                                <p class="nft-card-description">Our crypto payment solutions offer security, fast
+                                    transactions, global reach, low fees, and seamless business integration.</p>
+                            </div>
+
+                            <div class="nft-card">
+                                <div class="card-title">Crypto Marketing</div>
+                                <hr>
+                                <p class="nft-card-description">Our crypto marketing service boosts visibility,
+                                    community engagement, brand trust, investor reach, and project growth effectivel</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card" id="presale">
+                    <div class="nft-card-container">
+                        <div class="nft-card-split">
+                            <div class="nft-card">
+                                <div class="card-title">ICO Development</div>
+                                <hr>
+                                <p class="nft-card-description">Our ICO development service ensures secure fundraising,
+                                    investor trust, regulatory compliance, token strategy, and successful launch.</p>
+                            </div>
+
+                            <div class="nft-card">
+                                <div class="card-title">IEO Development</div>
+                                <hr>
+                                <p class="nft-card-description">IEO development services ensure secure fundraising,
+                                    exchange listing, investor trust, regulatory compliance, and successful token sales.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="nft-card-split">
+                            <div class="nft-card">
+                                <div class="card-title">IDO Development</div>
+                                <hr>
+                                <p class="nft-card-description">Our IDO development services provide decentralized
+                                    fundraising, liquidity, investor trust, security, scalability, and seamless token
+                                    distribution.</p>
+                            </div>
+
+                            <div class="nft-card">
+                                <div class="card-title">Venture Capitals</div>
+                                <hr>
+                                <p class="nft-card-description">Gain venture capital exposure for your project through
+                                    our strategic marketing and extensive industry connections.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="nft">
+                <div class="nft-card-container">
+                    <div class="nft-card-split">
+                        <div class="nft-card">
+                            <div class="card-title">NFT Development</div>
+                            <hr>
+                            <p class="nft-card-description">Our NFT development service offers secure smart contracts,
+                                custom marketplaces, tokenization, interoperability, and seamless digital asset
+                                management.</p>
+                        </div>
+
+                        <div class="nft-card">
+                            <div class="card-title">NFT creation</div>
+                            <hr>
+                            <p class="nft-card-description">NFT creation enables digital ownership, authenticity,
+                                monetization, brand engagement, interoperability, and secure blockchain-based asset
+                                management.</p>
+                        </div>
+                    </div>
+                    <div class="nft-card-split">
+                        <div class="nft-card">
+                            <div class="card-title">NFT Marketplace</div>
+                            <hr>
+                            <p class="nft-card-description">Our NFT marketplace development ensures secure transactions,
+                                smart contract automation, scalability, multi-chain support, and seamless user
+                                experience.</p>
+                        </div>
+
+                        <div class="nft-card">
+                            <div class="card-title">Staking System</div>
+                            <hr>
+                            <p class="nft-card-description">Our staking system integration offers passive income,
+                                enhanced security, liquidity, user engagement, and optimized rewards.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card" id="marketing">
+                <div class="nft-card-container">
+                    <div class="nft-card-split">
+                        <div class="nft-card">
+                            <div class="card-title">DeFi Marketing</div>
+                            <hr>
+                            <p class="nft-card-description">Our DeFi marketing solution boosts visibility, user
+                                engagement, investor trust, community growth, and project credibility effectively.</p>
+                        </div>
+
+                        <div class="nft-card">
+                            <div class="card-title">NFT Marketing</div>
+                            <hr>
+                            <p class="nft-card-description">Our NFT marketing solution increases visibility, community
+                                engagement, investor interest, brand recognition, sales, and long-term growth.</p>
+                        </div>
+                    </div>
+                    <div class="nft-card-split">
+                        <div class="nft-card">
+                            <div class="card-title">GameFi Marketing</div>
+                            <hr>
+                            <p class="nft-card-description">Our GameFi marketing solution drives player engagement,
+                                strengthens communities, attracts investors, boosts brand visibility, and maximizes
+                                revenue.</p>
+                        </div>
+
+                        <div class="nft-card">
+                            <div class="card-title">Presale Marketing</div>
+                            <hr>
+                            <p class="nft-card-description">Our presale marketing solution increases investor interest,
+                                builds community trust, enhances visibility, boosts sales, and ensures project success.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="listing">
+                <div class="nft-card-container">
+                    <div class="nft-card-split">
+                        <div class="nft-card">
+                            <div class="card-title">CEX Exchange Listing</div>
+                            <hr>
+                            <p class="nft-card-description">We provide premier CEX exchange listing services through our
+                                strong connections with leading cryptocurrency exchanges.</p>
+                        </div>
+
+                        <div class="nft-card">
+                            <div class="card-title">DEX Exchange Listing</div>
+                            <hr>
+                            <p class="nft-card-description">We provide top-tier DEX exchange listing services, ensuring
+                                seamless integration and maximum market exposure.</p>
+                        </div>
+                    </div>
+                    <div class="nft-card-split">
+                        <div class="nft-card">
+                            <div class="card-title">Coimarketcap Listing</div>
+                            <hr>
+                            <p class="nft-card-description">Our CoinMarketCap listing service guarantees approval within
+                                24–48 hours through our trusted connections and expertise.</p>
+                        </div>
+
+                        <div class="nft-card">
+                            <div class="card-title">Coingecko Listing</div>
+                            <hr>
+                            <p class="nft-card-description">Our CoinGecko listing service guarantees approval within
+                                24–48 hours through our trusted connections, ensuring no delays or rejections.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--CARD CONTAINER ENDS-->
+
+    <!--OUR WORK PROCESS STARTS-->
+
+    <!--WORK PROCESS STARTS-->
+    <div id="our-work-process">
+        <p class="work-process-heading">Our work process</p>
+
+        <div class="work-process">
+            <div class="work-process-split1">
+                <div class="work-process-box">
+                    <img id="processImg" src="process.png" height="40px;" width="40px;">
+
+                    <div>
+                        <div class="work-process-box-title">Project Mapping</div>
+
+                        <div class="work-box-desc">
+                            We start by understanding your project requirements, and piorities
+                            Through strategic project mapping, we streamline the strategies and align them with your
+                            goals.
+                        </div>
+                    </div>
+                </div>
+                <div class="work-process-box">
+                    <img id="processImg" src="code.png" height="40px;" width="40px;">
+
+                    <div>
+                        <div class="work-process-box-title">Development</div>
+                        <div class="box-desc">
+                            Our team perform coding and programming to bring your project to
+                            life. Following the approved design, we prepare the product for alpha, beta, and release
+                            phases.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-process-box">
+                    <img id="processImg" src="startup1.png" height="40px;" width="40px;">
+
+                    <div>
+                        <div class="work-process-box-title">Deployment</div>
+                        <div class="work-box-desc">
+                            Once testing and optimization phases are completed, we will deploy the modified
+                            and optimized app from the testnet to the mainnet. This makes your application
+                            live and accessible.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-process-box">
+                    <img id="processImg" src="social-media.png" height="40px;" width="40px;">
+
+                    <div>
+                        <div class="work-process-box-title">Social Media Setup</div>
+                        <div class="work-box-desc">
+                            Set up profiles, optimize bios, add branding, link websites, configure settings, enable
+                            security, integrate tools, schedule posts, and engage with your audience.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work-process-split2">
+                <div class="work-process-box">
+                    <img id="processImg" src="creative-process.png" height="40px;" width="40px;">
+
+                    <div>
+                        <div class="work-process-box-title">Technical Design</div>
+                        <div class="work-box-desc">
+                            Gathering the project requirements and piorities, we design a prototype for your web3
+                            solution. User
+                            testing helps us validate the design and make necessary refinements.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-process-box">
+                    <img id="processImg" src="file (1).png" height="40px;" width="40px;">
+
+                    <div>
+                        <div class="work-process-box-title">Testing and Optimization</div>
+                        <div class="work-box-desc">
+                            Taloired testing is conducted to identify defects and errors in the code. We address
+                            vulnerabilities and optimize the performance of the solution for seamless functionality.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-process-box">
+                    <img id="processImg" src="technical-support (2).png" height="40px;" width="40px;">
+
+                    <div>
+                        <div class="work-process-box-title">Monitoring and Maintenance</div>
+                        <div class="work-box-desc">
+                            We provide ongoing monitoring and maintenance to ensure your product
+                            continues to function as intended. Our team proactively identifies and resolves any issues
+                            that arise.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-process-box">
+                    <img id="processImg" src="marketing.png" height="40px;" width="40px;">
+
+                    <div>
+                        <div class="work-process-box-title">Marketing</div>
+                        <div class="work-box-desc">
+                            Our team delivers exceptional marketing strategies to ensure your project
+                            reaches the right audience effectively, maximising engagement and driving meaningful
+                            results.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--AI HOMEPAGE FOR MOBILE SCREEN-->
+
+    <div id="ai-container-wrapper">
+        <div id="ai-container">
+            <div class="robot">
+
+                <div class="ai-split2">
+                    <img id="aii" src="robot2.png" height="400px;" width="600px;">
+
+                    <div class="split-content">
+                        <div class="bot-title"><span style="color: rgb(233, 30, 99);">Check Out </span>Our
+                            Affordable AI
+                            Solutions</div>
+                        <div class="ai-robot-desc">
+                            Our solution’s key perk is ownership of data and assets. Users control their
+                            content & data, enhancing ecosystem autonomy.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ai-content">
+                    <p class="ai-upper-text">Sustainable AI Solutions</p>
+                    <div class="ai-first-title">
+                        Progress Your Venture Stronger with Our AI Development Company
+                    </div>
+                    <p class="ai-bigtext">
+                        Our AI development service delivers cutting-edge solutions tailored to your business needs,
+                        leveraging machine learning, natural language processing, and automation. We create intelligent
+                        systems that enhance decision-making, optimize operations, and drive innovation. From predictive
+                        analytics to AI-driven chatbots and computer vision, our solutions improve efficiency,
+                        scalability, and customer engagement. Whether developing custom AI models, integrating AI into
+                        existing systems, or building autonomous solutions, we ensure seamless implementation and
+                        maximum impact, empowering businesses to stay ahead in the digital era.
+                    </p>
+                    <div class="btn-split">
+                        <button class="aibtn">Chat Now</button>
+                        <button class="aibtn2">Explore</button>
+                    </div>
+                    <img id="ai" src="robot2.png">
+                </div>
+            </div>
+            <div id="ai-box-container">
+                <div class="aibox-split">
+                    <div class="ai-box">
+                        <div>
+                            <img id="tag-img-2" src="conversation.png" height="50px;" width="50px;">
+                        </div>
+                        <div class="process-box-title">
+                            AI Consultation
+                        </div>
+                        <p class="process-box-content">Our AI consultation service provides expert guidance on AI
+                            integration, automation, predictive analytics, and scalable solutions, ensuring businesses
+                            leverage artificial intelligence effectively for enhanced efficiency, innovation, and
+                            growth.</p>
+                    </div>
+
+
+
+                    <div class="ai-box">
+                        <div>
+                            <img id="tag-img-2" src="deep-learning_18669980.png" height="50px;" width="50px;">
+                        </div>
+                        <div class="process-box-title">
+                            AI Agent Development
+                        </div>
+                        <p class="process-box-content">Our AI agent development service creates intelligent, autonomous
+                            systems for automation, customer support, and decision-making. We design adaptive, scalable
+                            AI agents to enhance efficiency, user engagement, and business operations across various
+                            industries.</p>
+                    </div>
+                </div>
+
+                <div class="aibox-split2">
+                    <div class="ai-box">
+                        <div>
+                            <img id="tag-img-2" src="machine-learning_15748498.png" height="50px;" width="50px;">
+                        </div>
+                        <div class="process-box-title">
+                            LLM Development
+                        </div>
+                        <p class="process-box-content">Our LLM development service builds advanced language models
+                            tailored for automation, content generation, and data analysis. We create scalable,
+                            intelligent solutions that enhance communication, streamline operations, and drive
+                            innovation across various industries.</p>
+                    </div>
+
+
+
+                    <div class="ai-box">
+                        <div>
+                            <img id="tag-img-2" src="adaptability_15439168.png" height="50px;" width="50px;">
+                        </div>
+                        <div class="process-box-title">
+                            Natural Language Processing(NLP)
+                        </div>
+                        <p class="process-box-content">Our NLP development service enhances text analysis, sentiment
+                            detection, and automation, creating AI-driven solutions for chatbots, content processing,
+                            and data insights to improve communication and decision-making.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="aibtn-mobile">Explore</button>
+    </div>
+
+
+    <div id="another-ai-container">
+        <p class="ai-process-heading">Premium perks tailored for enterprises through cutting-edge Web3 and AI
+            development services.</p>
+
+        <div class="ai-process">
+            <div class="ai-process-split1">
+                <div class="ai-process-box">
+                    <img id="process-2-Img" src="customer-engagement.png" height="60px;" width="60px;">
+
+                    <div>
+                        <div class="ai-process-box-title">Taloired Customer Engagement</div>
+                        <div class="box-desc">
+                            We create customized AI, Web3, and blockchain applications tailored to your business needs,
+                            ensuring greater efficiency, security, and effectiveness.
+                        </div>
+                    </div>
+                </div>
+                <div class="ai-process-box">
+                    <img id="process-2-Img" src="presentation.png" height="60px;" width="60px;">
+
+                    <div>
+                        <div class="ai-process-box-title">Enhanced Efficiency</div>
+                        <div class="box-desc">
+                            Our AI, Web3, and blockchain solutions streamline operations, minimize human error, and
+                            empower your team to focus on strategic growth initiatives.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ai-process-box">
+                    <img id="process-2-Img" src="data-collection.png" height="60px;" width="60px;">
+
+                    <div>
+                        <div class="ai-process-box-title">Data-driven Insights</div>
+                        <div class="box-desc">
+                            By integrating AI and Web3, we empower your business to rapidly analyze data, uncover
+                            insights, and enhance decision-making with blockchain security.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ai-process-split2">
+                <div class="ai-process-box">
+                    <img id="process-2-Img" src="customer-satisfaction (1).png" height="60px;" width="60px;">
+
+                    <div>
+                        <div class="ai-process-box-title">Improved Customer Experience</div>
+                        <div class="box-desc">
+                            AI and Web3 enhance customer engagement by personalizing interactions, and ensuring secure,
+                            decentralized experiences through blockchain
+                            technology.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ai-process-box">
+                    <img id="process-2-Img" src="advantage.png" height="60px;" width="60px;">
+
+                    <div>
+                        <div class="ai-process-box-title">Competitive Advantage</div>
+                        <div class="box-desc">
+                            By Implementing AI and Web3 solutions empowers your business to anticipate
+                            industry trends, elevate customer experiences, and maintain a competitive advantage.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ai-process-box">
+                    <img id="process-2-Img" src="help-desk.png" height="60px;" width="60px;">
+
+                    <div>
+                        <div class="ai-process-box-title">Expert Support System</div>
+                        <div class="box-desc">
+                            Our expert team ensures seamless AI, Web3, and blockchain system performance with continuous
+                            support, maintenance and long-term efficiency.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--AI technology stack-->
+    <div id="ai-tools">
+        <div class="h7">Web3 and AI Development Technology Stack</div>
+
+
+        <div class="btn-container">
+            <button class="active-btn" onclick="showBoxes('set1', this)">Frameworks</button>
+            <!-- <button onclick="showBoxes('set1')">Frameworks</button> -->
+            <button onclick="showBoxes('set2')">Programming Languages</button>
+            <button onclick="showBoxes('set3')">Integration and Deployment</button>
+            <button onclick="showBoxes('set4')">Databases</button>
+            <button onclick="showBoxes('set5')">Cloud Platform</button>
+            <button onclick="showBoxes('set6')">Blockchain</button>
+        </div>
+
+        <div id="boxContainer">
+            <!-- Set 1 -->
+            <div class="container set1">
+                <div class="box"><img src="TensorFlow.svg">
+                    <div>TensorFlow</div>
+                </div>
+                <div class="box"><img src="PyTorch.svg">
+                    <div>PyTorch</div>
+                </div>
+
+                <div class="box"><img src="Keras.svg" alt="">
+                    <div>Keras</div>
+                </div>
+            </div>
+
+            <!-- Set 2 -->
+            <div class="container set2">
+                <div class="box"><img src="Python (1).svg" alt="">
+                    <div>Python</div>
+                </div>
+                <div class="box"><img src="JavaScript.png" alt="">
+                    <div>Javascript</div>
+                </div>
+                <div class="box"><img src="Java.svg" alt="">
+                    <div>Java</div>
+                </div>
+                <div class="box"><img src="React (1).svg" alt="">
+                    <div>React.js</div>
+                </div>
+            </div>
+
+            <!-- Set 3 -->
+            <div class="container set3">
+                <div class="box"><img src="Docker.svg" alt="">
+                    <div>Docker</div>
+                </div>
+                <div class="box"><img src="Kubernetes.svg" alt="">
+                    <div>Kubernets</div>
+                </div>
+                <div class="box"><img src="Ansible.svg" alt="">
+                    <div>Ansible</div>
+                </div>
+            </div>
+
+            <!-- Set 4 -->
+            <div class="container set4">
+                <div class="box"><img src="MongoDB.svg" alt="">
+                    <div>MongoDB</div>
+                </div>
+                <div class="box"><img src="PostgresSQL.svg" alt="">
+                    <div>PostgreSQL</div>
+                </div>
+                <div class="box"><img src="MongoDB.svg" alt="">
+                    <div>MySQL</div>
+                </div>
+            </div>
+
+            <!-- Set 5 -->
+            <div class="container set5">
+                <div class="box"><img src="AWS.svg" alt="">
+                    <div>AWS</div>
+                </div>
+                <div class="box"><img src="Google Cloud.svg" alt="">
+                    <div>Google Cloud</div>
+                </div>
+                <div class="box"><img src="Azure.svg" alt="">
+                    <div>Azure</div>
+                </div>
+            </div>
+
+            <!-- Set 6 -->
+            <div class="container set6">
+                <div class="box"><img src="ethereum_18350578.png">
+                    <div>Ethereum</div>
+                </div>
+                <div class="box"><img src="solana.png" alt="">
+                    <div>Solana</div>
+                </div>
+                <div class="box"><img src="hexagon_13093515.png" alt="">
+                    <div>Polygon</div>
+                </div>
+            </div>
+        </div>
+
+        <!--OUR PARTNER SECTION-->
+        <div class="partner-heading">
+            <div class="partner-first-text">Our Crypto Partners and Clients</div>
+            <p class="partner-bigtext">
+                Our robust network of partners and clients grants exclusive access to invaluable resources, strategic
+                insights, and growth opportunities. This synergy, strengthened by positive feedback, accelerates success
+                and amplifies your project's impact in the highly competitive crypto landscape.
+            </p>
+        </div>
+
+
+        <div class="partner-section-wrapper">
+
+            <div class="partner-scrolling-content">
+                <!-- DUPLICATE CONTENT FOR SEAMLESS SCROLLING -->
+                <div class="partner-scroll-item">
+                    <img id="partnerImg" src="logo.svg">
+                </div>
+
+                <div class="partner-scroll-item">
+                    <img id="partnerImg" src="Huobi.webp">
+                </div>
+                <div class="partner-scroll-item">
+                    <img id="partnerImg" src="okx.webp">
+                </div>
+                <div class="partner-scroll-item">
+                    <img id="partnerImg" src="Near.webp">
+                </div>
+                <div class="partner-scroll-item">
+                    <img id="partnerImg" src="Bybit.webp">
+                </div>
+                <div class="partner-scroll-item">
+                    <img id="partnerImg" src="Uniswap.webp">
+                </div>
+                <div class="partner-scroll-item">
+                    <img id="partnerImg" src="Wepad.webp">
+                </div>
+                <div class="partner-scroll-item">
+                    <img src="Iwefi.avif">
+                </div>
+                <div class="partner-scroll-item">
+                    <img id="partnerImg" src="layerai.webp">
+                </div>
+                <div class="partner-scroll-item">
+                    <img id="partnerImg2" src="Binance-Logo.wine.svg">
+                </div>
+                <div class="partner-scroll-item">
+                    <img id="partnerImg" src="Planet.svg">
+                </div>
+
+                <!-- DUPLICATE ITEMS FOR CONTINUOUS LOOP -->
+                <div class="partner-scroll-item">
+                    <img id="partnerImg" src="logo.svg">
+                </div>
+
+                <div class="partner-scroll-item">
+                    <img id="partnerImg" src="Huobi.webp">
+                </div>
+                <div class="partner-scroll-item">
+                    <img id="partnerImg" src="okx.webp">
+                </div>
+                <div class="partner-scroll-item">
+                    <img id="partnerImg" src="Near.webp">
+                </div>
+                <div class="partner-scroll-item">
+                    <img id="partnerImg" src="Bybit.webp">
+                </div>
+                <div class="partner-scroll-item">
+                    <img id="partnerImg" src="Uniswap.webp">
+                </div>
+                <div class="partner-scroll-item">
+                    <img id="partnerImg" src="Wepad.webp">
+                </div>
+                <div class="partner-scroll-item">
+                    <img id="partnerImg" src="Iwefi.avif">
+                </div>
+                <div class="partner-scroll-item">
+                    <img id="partnerImg" src="layerai.webp">
+                </div>
+                <div class="partner-scroll-item">
+                    <img id="partnerImg" src="logo.svg">
+                </div>
+                <div class="partner-scroll-item">
+                    <img id="partnerImg" src="Planet.svg">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!--FAQ SECTION-->
+
+    <div id="faq-container">
+        <div class="faq-heading"> Frequently Asked Questions</div>
+        <div class="faq-wrapper">
+            <div class="faq-item">
+                <div class="faq-question">
+                    What services do your Company Provide? <span class="icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    We specialize in blockchain development, smart contract auditing, decentralized applications
+                    (dApps),
+                    AI-powered automation, machine learning solutions, and custom software development that
+                    integrates
+                    Web3
+                    and
+                    AI technologies.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    Who can benefit from your services? <span class="icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    Startups, enterprises, and individuals looking to integrate blockchain and AI solutions into
+                    their
+                    business
+                    operations, whether it's through NFT marketplaces, DeFi platforms, AI-powered analytics, or
+                    smart
+                    automation.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    What industries do you serve? <span class="icon">+ </span>
+                </div>
+                <div class="faq-answer">
+                    We cater to various industries, including fintech, healthcare, gaming, real estate, supply
+                    chain,
+                    and
+                    e-commerce, among others.
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Do you provide smart contract auditing? <span class="icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    Yes, we develop, test, and audit smart contracts to ensure security, efficiency, and compliance
+                    with
+                    industry standards.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    What AI solutions do you offer? <span class="icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    We provide AI-driven automation, chatbots, predictive analytics, natural language processing
+                    (NLP),
+                    computer
+                    vision, and generative AI models for various business applications.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Can you integrate AI into existing platfrom? <span class="icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    Yes, we specialize in AI-powered Web3 applications, such as AI-driven trading bots,
+                    decentralized AI
+                    assistants, and machine learning models for blockchain data analysis.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    Do you offer AI model training? <span class="icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    Yes, we train, fine-tune, and deploy AI models tailored to your business needs, whether for
+                    automation,
+                    analytics, or user engagement.
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- FOOTER SECTION -->
+    <div id="footer-wrapper">
+
+        <div class="footer">
+            <div class="btnContainer">
+                <div class="footer-first-text">Lets Get Started</div>
+                <button class="footer-button">Chat With Our Team Lead</button>
+            </div>
+
+            <div class="social-icons">
+                <ul class="icons">
+                    <li><a href="#" class="fa fa-telegram"></a></li>
+                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="#" class="fa fa-github"></a></li>
+                </ul>
+
+            </div>
+
+            <div class="links-split">
+                <div class="footer-links">
+
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Contact</a>
+                    <a href="#">About</a>
+                    <!-- <a href="#">Blog</a> -->
+
+                </div>
+                <div class="copyright">
+                    <p>Copyright © 2025 Infinux Web. All rights reserved.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
