@@ -531,7 +531,7 @@ a:hover {
     .web3-title {
         font-family: 'League Spartan', sans-serif;
         font-weight: 500;
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         padding: 10px;
 
     }
@@ -634,6 +634,7 @@ a:hover {
     .web3-title-description {
         color: #000;
         padding: 1px;
+    
 
     }
 
@@ -923,6 +924,7 @@ a:hover {
         font-family: 'League Spartan', sans-serif;
         margin: 0 auto;
         text-align: center;
+        line-height: 35px;
 
     }
 
@@ -1285,7 +1287,7 @@ a:hover {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 20px;
+        padding: 15px;
         color: #4B5563;
         background: #ffffff;
         border-radius: 8px;
@@ -1318,7 +1320,7 @@ a:hover {
         height: 20px;
         width: 20px;
         border-radius: 30px;
-        padding-top: 5px;
+        padding-top: 2px;
         background-color: #111827;
         border-style: none;
         text-align: center;
@@ -1957,7 +1959,7 @@ a:hover {
     }
 
     .nav-links li {
-        margin: 0 5px;
+        margin: 0 1px;
         position: relative;
         padding-right: 5px;
     }
@@ -2608,14 +2610,6 @@ a:hover {
     
     }
 
-    .icon {
-        font-size: 0.8rem;
-        padding-top: 4px;
-        
-
-    }
-
-
 
 
     .footer {
@@ -2944,12 +2938,5 @@ a:hover {
     }
 
     
-    .icon {
-        font-size: 0.9rem;
-        padding-top: 3px;
-        
-
-    }
-
 
 }
