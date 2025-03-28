@@ -376,12 +376,12 @@ a:hover {
 
     .hero-bigtext {
         padding: 10px;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
 
     .getBtn {
-        height: 55px;
+        height: 50px;
         width: 200px;
         font-size: 1rem;
         display: block;
@@ -1282,7 +1282,7 @@ a:hover {
     .faq-question {
         font-size: 1rem;
         font-weight: 500;
-        font-family: 'League Spartan', sans-serif;
+        font-family: 'Winky Sans', sans-serif;
         cursor: pointer;
         display: flex;
         justify-content: space-between;
@@ -1320,7 +1320,6 @@ a:hover {
         height: 20px;
         width: 20px;
         border-radius: 30px;
-        padding-top: 2px;
         background-color: #111827;
         border-style: none;
         text-align: center;
@@ -2600,7 +2599,7 @@ a:hover {
     }
 
     .faq-question {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         font-weight: 700;
 
     }
@@ -2682,6 +2681,10 @@ a:hover {
         max-width: 1200px;
         margin: 0 auto;
         gap: 5rem;
+    }
+
+    .hero-bigtext {
+        padding-bottom: 1.5rem;
     }
 
     .getBtn {
