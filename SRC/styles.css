@@ -196,7 +196,7 @@ a:hover {
 }
 
 #hero-section {
-    padding: 4rem 0;
+    padding: 3.5rem 0;
 }
 
 .hero-content hr {
@@ -1266,6 +1266,7 @@ a:hover {
         font-weight: 700;
         margin-bottom: 20px;
         padding: 90px 0 30px 0;
+        color: #111827;
         font-family: 'League Spartan', sans-serif;
     }
 
