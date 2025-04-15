@@ -1,0 +1,1458 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 'Poppins', sans-serif;
+}
+
+#web3-hero-section-wrapper {
+    background: linear-gradient(to right, rgb(103, 58, 183), rgb(33, 150, 243));
+
+}
+
+#web3-meaning-wrapper {
+    background-color: rgb(204, 204, 204);
+}
+
+
+
+
+.webSlider-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.webSlider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.web3-card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(204, 204, 204);
+    border-radius: 8px;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.web3-card-icon img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.web3-slide-title {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.web3-card-date {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0.9em;
+    color: #888;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination .dot {
+    width: 12px;
+    height: 12px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.pagination .dot.active {
+    background-color: #888;
+}
+
+
+.web3-slider-container {
+    overflow: hidden;
+}
+
+.get-started-wrapper {
+    background-color:rgb(5, 7, 72) ;
+    padding-bottom: 3rem;
+    margin: 5rem 0;
+}
+
+.icon {
+    padding-top: 0;
+}
+
+
+
+@media screen and (min-width: 360px) {
+
+   .navbar {
+        height: 60px;
+    }
+
+    .hamburger {
+        font-size: 1.85rem;
+        font-weight: 500;
+        
+
+    }
+
+    #logo {
+        height: 40px;
+    }
+
+    .web3-upper-text {
+        color: rgb(255, 86, 82);
+        padding: 3.5rem 0;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .web3-h1 {
+        font-size: 2rem;
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        padding: 0 0 1.5rem 0;
+        max-width: 340px;
+        margin: 0 auto;
+        color: #ffffff;
+    }
+
+
+
+    .web3-hero-bigtext {
+        text-align: center;
+        padding-bottom: 1rem;
+        max-width: 340px;
+        margin: 0 auto;
+        font-size: 0.9rem;
+        color: #ffffff;
+    }
+
+
+    #web3-hero-image {
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0;
+    }
+
+    .web3-hero-btn-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .web3-hero-btn {
+        color: #ffffff;
+        height: 50px;
+        width: 250px;
+        border: 1px solid black;
+        border-radius: 6rem;
+        font-size: 0.9rem;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        margin: 1.25rem 0;
+        border-style: none;
+        background-image: linear-gradient(to right, rgb(255, 86, 82), rgb(255, 151, 79), rgb(255, 195, 35));
+    }
+
+    .web3-h2 {
+        text-align: center;
+        font-family: 'League Spartan', sans-serif;
+        font-size: 1.75rem;
+        font-weight: 700;
+        color: rgb(5, 7, 72);
+        max-width: 340px;
+        line-height: 28px;
+        padding: 3rem 0;
+        margin: 0 auto;
+    }
+
+    .web3-about-bigtext {
+        text-align: center;
+        max-width: 340px;
+        margin: 0 auto;
+        font-size: 0.8rem;
+    }
+
+    .web3-about-btn-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+
+    }
+
+    .web3-about-btn {
+        color: #ffffff;
+        height: 40px;
+        width: 160px;
+        border: 1px solid black;
+        border-radius: 6rem;
+        font-size: 0.8rem;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        margin: 1.25rem 0;
+        border-style: none;
+        background-image: linear-gradient(to right, rgb(103, 58, 183), rgb(33, 150, 243));
+    }
+
+    .web3-meaning {
+        max-width: 340px;
+        margin: 0 auto;
+
+    }
+
+    .web3-h3 {
+        font-size: 1.75rem;
+        font-weight: 700;
+        font-family: 'League Spartan', sans-serif;
+        text-align: center;
+        padding: 3rem 0;
+        line-height: 32px;
+        color: rgb(5, 7, 72);
+    }
+
+    .meaning-description {
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    #web3-meaning-image {
+        display: none;
+    }
+
+
+
+    #web3-meaning-image-mobile {
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .web3-meaning-btn-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        padding: 2rem 0;
+    }
+
+    .web3-meaning-btn {
+        color: #ffffff;
+        height: 40px;
+        width: 175px;
+        border: 1px solid black;
+        border-radius: 6rem;
+        font-size: 0.8rem;
+        font-weight: 500;
+        border-style: none;
+        background-image: linear-gradient(to right, rgb(103, 58, 183), rgb(33, 150, 243));
+    }
+
+    .web3-product {
+        max-width: 340px;
+        margin: 0 auto;
+        padding: 3rem 0;
+    }
+
+    .web3-h4 {
+        font-size: 1.7rem;
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        color: rgb(5, 7, 72);
+        line-height: 24px;
+    }
+
+    .product-smalltext {
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    .product-box {
+        height: 320px;
+        width: 330px;
+        /* background-color: rgb(243, 245, 255); */
+        border: 1px solid black;
+        border-radius: 7px;
+        font-size: 0.8rem;
+        padding: 10px;
+        margin: 0 auto;
+
+    }
+
+    .product-box:hover {
+        transform: scale(1.03);
+    }
+
+    .product-split1,
+    .product-split2,
+    .product-split3 {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .product-box-title {
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 500;
+        font-size: 1.25rem;
+        padding: 5px;
+        line-height: 24px;
+    }
+
+    .product-box-content {
+        padding: 5px;
+        font-size: 0.9rem;
+    }
+
+    .web3-product-btn-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .web3-product-btn {
+        color: #ffffff;
+        height: 60px;
+        width: 300px;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        margin: 1.25rem 0;
+        border-style: none;
+        background-image: linear-gradient(to right, rgb(103, 58, 183), rgb(33, 150, 243));
+
+    }
+
+    .web3-product-btn:hover {
+        background-image: linear-gradient(to right, rgb(255, 86, 82), rgb(255, 151, 79), rgb(255, 195, 35));
+        cursor: pointer;
+    }
+
+
+    .smart-contract-service {
+        padding: 0 0 5rem 0;
+    }
+
+
+    .smart-contract-service-box {
+        height: 240px;
+        width: 330px;
+        border: 1px solid black;
+        border-radius: 7px;
+        font-size: 0.9rem;
+        padding: 10px;
+        margin: 0 auto;
+
+    }
+
+    #smart-contract-service-img {
+        width: 40px;
+        height: auto;
+    }
+
+    .smart-contract-service-split {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .smart-contract-service-title {
+        font-size: 1.25rem;
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 500;
+        padding: 5px;
+        color: rgb(5, 7, 72);
+    }
+
+    .smart-contract-service-description {
+        padding: 5px;
+    }
+
+
+
+
+    #smart-contract-section-wrapper {
+        background-color: rgb(5, 7, 72);
+        padding-bottom: 3rem;
+    }
+
+    .smart-contract-section {
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    .web3-h5 {
+        text-align: center;
+        font-family: 'League Spartan', sans-serif;
+        font-size: 1.85rem;
+        font-weight: 700;
+        line-height: 32px;
+        padding: 3rem 0;
+        color: rgb(5, 7, 72);
+        margin: 0 auto;
+    }
+
+    .web3-h6 {
+        text-align: center;
+        font-family: 'League Spartan', sans-serif;
+        font-size: 1.75rem;
+        font-weight: 700;
+        line-height: 32px;
+        padding: 3rem 0;
+        color: #ffffff;
+        margin: 0 auto;
+    }
+
+    .smart-contract-smalltext {
+        text-align: center;
+        color: rgb(255, 240, 0);
+        font-size: 0.9rem;
+    }
+
+    .smart-contract-box-container {
+        padding: 2rem 0;
+    }
+
+
+    .smart-contract-box {
+        display: flex;
+        height: 240px;
+        font-size: 0.9rem;
+        width: 340px;
+        background: #ffffff;
+        border: 1px solid #000;
+        padding: 10px;
+        border-left: 5px solid rgb(204, 204, 204);
+
+    }
+
+    .smart-contract-split1,
+    .smart-contract-split2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        margin: 10px;
+    }
+
+    .smart-contract-title {
+        font-size: 1.25rem;
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 500;
+        padding: 5px;
+        line-height: 24px;
+    }
+
+    .smart-contract-description {
+        padding: 5px;
+    }
+
+
+
+
+    #slider-container-wrapper {
+        background-color: rgb(5, 7, 72);
+        padding: 2rem;
+        margin-top: 4rem;
+
+    }
+
+    .web3-card {
+        min-width: 100%;
+    }
+
+    .web3-slider-heading {
+        font-family: 'League Spartan', sans-serif;
+        font-size: 1.75rem;
+        font-weight: 700;
+        text-align: center;
+        width: 330px;
+        color: rgb(5, 7, 72);
+        padding: 4rem 0 1.5rem 0;
+        line-height: 28px;
+        margin: 0 auto;
+
+
+    }
+
+    .web3-slider-container {
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    .web3-slider-heading-description {
+        text-align: center;
+        max-width: 340px;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+
+    .web3-slider-title {
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 500;
+        font-size: 1.25rem;
+        padding-bottom: 1rem;
+    }
+
+
+    .get-started {
+        margin-top: 3rem ;
+
+    }
+
+
+   
+
+    .get-heading {
+        font-size: 1.75rem;
+        text-align: center;
+        font-weight: 700;
+        color: #ffffff;
+        font-family: 'League Spartan', sans-serif;
+        padding: 3rem;
+
+    }
+
+    .get-box-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .get-box {
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+
+
+    .get-title {
+        font-size: 1.25rem;
+        font-weight: 500;
+        font-family: 'League Spartan', sans-serif;
+        padding-bottom: 10px;
+        color: rgb(255, 195, 35);
+        line-height: 24px;
+    }
+    
+
+    .get-description {
+        color: #ffffff;
+    }
+
+
+
+
+    .web3-launch-heading {
+        font-family: 'League Spartan', sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 35px;
+        padding: 3rem 0 2rem 0;
+        max-width: 330px;
+
+
+    }
+
+    .web3-launch-smalltext {
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .web3-launch-btn-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+        gap: 10px;
+    }
+
+    .web3-launch-btn {
+        background-image: linear-gradient(to right, rgb(103, 58, 183), rgb(33, 150, 243));
+        height: 40px;
+    }
+
+    .web3-launch-btn:hover {
+        background-image: linear-gradient(to right, rgb(255, 86, 82), rgb(255, 151, 79), rgb(255, 195, 35));
+    }
+
+
+
+    #boxContainer-wrapper {
+        margin: 4.5rem 0;
+    }
+
+
+    .web3-stack-heading {
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 700;
+        font-size: 1.75rem;
+        text-align: center;
+        margin: 0 auto;
+        color:rgb(5, 7, 72);
+        max-width: 330px;
+        padding-bottom: 2rem;
+        line-height: 28px;
+
+
+    }
+
+    .web3-launch-smalltext {
+        width: 340px;
+    }
+
+    .faq-heading {
+        line-height: 45px;
+        font-size: 2rem;
+        font-family: 'Winky Sans', sans-serif;
+    }
+
+    .faq-question {
+        font-family: 'Winky Sans', sans-serif;
+    }
+
+
+}
+
+
+
+
+@media screen and (min-width: 480px) {
+    .web3-h1 {
+        max-width: 450px;
+    }
+
+    .web3-hero-bigtext {
+        max-width: 450px;
+    }
+
+    .web3-h2 {
+        max-width: 450px;
+
+    }
+
+    .web3-about-bigtext {
+        max-width: 450px;
+
+    }
+
+    .web3-meaning {
+        max-width: 450px;
+        margin: 0 auto;
+
+    }
+
+    #web3-meaning-image-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .web3-product {
+        max-width: 450px;
+
+    }
+
+    .product-box {
+        height: 220px;
+        width: 450px;
+    }
+
+    .smart-contract-service-box {
+        height: 200px;
+        width: 450px;
+
+
+    }
+
+    .smart-contract-section {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+
+    .smart-contract-box {
+
+        height: 160px;
+        width: 450px;
+
+    }
+
+    .web3-card {
+        min-width: 100%;
+    }
+
+
+    .web3-slider-container {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+
+    .web3-slider-heading-description {
+        max-width: 450px;
+        margin: 0 auto;
+
+    }
+
+
+    .get-box {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .web3-launch-btn {
+        font-size: 0.9rem;
+        height: 50px;
+    }
+
+    .web3-launch-heading {
+       max-width: 440px;
+    }
+
+    .web3-launch-smalltext {
+        width: 450px;
+    }
+
+
+
+}
+
+
+
+@media screen and (min-width: 575px) {
+    .web3-hero-bigtext {
+        max-width: 550px;
+    }
+
+    .web3-about-bigtext {
+        max-width: 550px;
+
+    }
+
+
+    .web3-meaning {
+        max-width: 550px;
+        margin: 0 auto;
+
+    }
+
+    .web3-product {
+        max-width: 550px;
+
+    }
+
+    .product-box {
+        height: 240px;
+        width: 550px;
+        font-size: 1rem;
+    }
+
+    .smart-contract-service-box {
+        height: 200px;
+        width: 550px;
+
+
+    }
+
+
+
+    .smart-contract-section {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+
+    .smart-contract-box {
+
+        height: 150px;
+        width: 550px;
+
+    }
+
+    .web3-h5 {
+
+        line-height: 32px;
+
+    }
+
+    .web3-card {
+        min-width: 100%;
+    }
+
+    .web3-slider-container {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    .web3-slider-heading-description {
+        max-width: 550px;
+        margin: 0 auto;
+
+    }
+
+
+    .get-box {
+        max-width: 550px;
+        margin: 0 auto;
+
+    }
+
+
+    
+    .web3-launch-heading {
+       max-width: 500px;
+    }
+
+    .web3-launch-smalltext {
+        width: 550px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .web3-h1 {
+        max-width: 500px;
+        font-size: 2rem;
+    }
+
+
+    .web3-hero-bigtext {
+        max-width: 700px;
+    }
+
+    #web3-hero-image {
+        width: 400px;
+    }
+
+    .web3-h2 {
+        font-size: 2rem;
+        line-height: 34px;
+        max-width: 700px
+    }
+
+    .web3-about-bigtext {
+        max-width: 700px;
+
+    }
+
+
+    .web3-meaning {
+        max-width: 700px;
+        margin: 0 auto;
+
+    }
+
+
+    .web3-product {
+        max-width: 700px;
+
+    }
+
+
+
+    .product-box {
+        height: 220px;
+        width: 700px;
+        font-size: 1rem;
+    }
+
+    .smart-contract-service-box {
+        height: 200px;
+        width: 700px;
+
+
+    }
+
+    .smart-contract-service-description {
+        font-size: 1rem;
+    }
+
+
+
+
+    .smart-contract-section {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .web3-h3,
+    .web3-h4,
+    .web3-h5 {
+        font-size: 2rem;
+        line-height: 32px;
+    }
+
+
+
+
+    .smart-contract-box {
+
+        height: 150px;
+        width: 700px;
+
+    }
+
+
+    .web3-card {
+        min-width: calc(50% - 10px);
+        margin: 5px;
+    }
+
+
+    .web3-slider-heading-description {
+        max-width: 700px;
+        margin: 0 auto;
+
+    }
+
+
+    .web3-slider-container {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .web3-stack-heading {
+        
+        font-size: 2rem;
+        max-width: 600px;
+
+    }
+
+    #boxContainer {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    
+    .web3-launch-heading {
+        max-width: 600px;
+    }
+
+    .web3-launch-smalltext {
+        width: 550px;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 995px) {
+
+    .navbar {
+        height: 70px;
+    }
+
+
+    .web3-upper-text {
+        text-align: left;
+
+    }
+
+
+    .navbar {
+        max-width: 900px;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+
+    .web3-hero-section {
+        display: flex;
+        max-width: 900px;
+        margin: 0 auto;
+        gap: 3rem;
+
+
+
+    }
+
+    .web3-h1 {
+        text-align: left;
+        margin-left: 0;
+        font-size: 3rem;
+        line-height: 50px;
+        margin-bottom: 0;
+
+    }
+
+    .web3-hero-bigtext {
+        text-align: left;
+    }
+
+    .web3-hero-content {
+        width: 50%;
+    }
+
+
+    .web3-hero-btn-wrapper {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .web3-hero-btn {
+        height: 60px;
+        font-size: 1rem;
+    }
+
+    #web3-hero-image {
+        width: 400px;
+        height: auto;
+        margin: 2rem 0;
+        padding: 50px 0;
+    }
+
+    .web3-h2 {
+        font-size: 3rem;
+        line-height: 40px;
+        max-width: 900px
+    }
+
+    .web3-hero-bigtext {
+        font-size: 1rem;
+    }
+
+    .web3-about-btn {
+        height: 50px;
+        width: 200px;
+        font-size: 1rem;
+        margin: 3rem 0;
+    }
+
+    .web3-meaning {
+        max-width: 900px;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        gap: 2rem;
+        padding: 3rem 0;
+
+    }
+
+    .web3-h3 {
+        text-align: left;
+    }
+
+    #web3-meaning-image-mobile {
+        display: none;
+    }
+
+    #web3-meaning-image {
+        display: block;
+        width: 50%;
+        width: 500px;
+        height: auto;
+    }
+
+    .meaning-content {
+        width: 50%;
+
+    }
+
+    .meaning-description {
+        text-align: left;
+    }
+
+    .web3-meaning-btn-wrapper {
+        justify-content: left;
+        align-items: left;
+    }
+
+    .web3-product {
+        max-width: 900px;
+
+    }
+
+    .product-smalltext {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .product-box {
+        height: 340px;
+        width: 320px;
+        font-size: 0.9rem;
+    }
+
+    .product-split1,
+    .product-split2,
+    .product-split3 {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+
+    }
+
+    .smart-contract-service {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+
+
+
+
+    .smart-contract-service-box {
+        height: 230px;
+        width: 430px;
+
+
+    }
+
+
+    .smart-contract-service-split {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+
+    .web3-h5 {
+        font-size: 2.5rem;
+
+    }
+
+    .smart-contract-box-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 900px;
+
+    }
+
+    .smart-contract-box {
+        width: 400px;
+        height: 195px;
+    }
+
+
+    .web3-card {
+        min-width: calc(33.33% - 10px);
+        margin: 5px;
+    }
+
+    .web3-slider-heading {
+        font-size: 2.5rem;
+        padding: 2rem 0 0 0;
+
+    }
+
+    .web3-slider-heading-description {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 1rem 0;
+
+    }
+
+    .web3-slider-container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .web3-slider-title {
+        font-size: 1.5rem;
+
+    }
+
+    .get-started {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .get-heading {
+        font-size: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .get-box-container {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .get-title {
+        font-size: 1.5rem;
+    }
+
+
+    .web3-launch-btn {
+        
+        width: 200px;
+        font-size: 1rem;
+    }
+
+
+    #faq-container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+
+    .faq-heading {
+        font-size: 2.5rem;
+       
+    }
+
+    .web3-stack-heading {
+        max-width: 750px;
+        font-size: 2.5rem;
+        line-height: 42px;
+
+    }
+
+
+    #boxContainer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    
+    .web3-launch-heading {
+       max-width: 700px;
+       font-size: 3rem;
+       line-height: 44px;
+    }
+
+    .web3-launch-smalltext {
+        width: 800px;
+    }
+
+
+
+
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .navbar {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+
+
+    .web3-hero-section {
+        max-width: 1200px;
+        margin: 0 auto;
+        gap: 5rem;
+
+    }
+
+
+    #web3-hero-image {
+        width: 500px;
+
+    }
+
+    .web3-h2 {
+        font-size: 3rem;
+        line-height: 40px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 3.5rem 0;
+
+
+    }
+
+    .web3-about-bigtext {
+        max-width: 1200px;
+        font-size: 1rem;
+
+    }
+
+
+    .web3-meaning {
+        max-width: 1200px;
+
+        gap: 5rem;
+
+    }
+
+    .web3-h3 {
+        font-size: 2.5rem;
+    }
+
+    .web3-h5 {
+        font-size: 3rem;
+    }
+
+
+    .web3-product {
+        max-width: 1200px;
+        padding: 4rem 0;
+
+    }
+
+    .web3-h4 {
+        font-size: 2.75rem;
+    }
+
+    .product-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .product-box {
+        height: 290px;
+        width: 390px;
+        font-size: 1rem;
+    }
+
+    .product-box-title {
+        font-size: 1.5rem;
+    }
+
+    .smart-contract-service {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    #smart-contract-service-Img {
+        width: 50px;
+    }
+
+    .smart-contract-service-title {
+        font-size: 1.5rem;
+    }
+
+    .smart-contract-service-description {
+        font-size: 1rem;
+    }
+
+
+    .smart-contract-service-box {
+        width: 580px;
+    }
+
+
+    .web3-h5 {
+        font-size: 3rem;
+
+    }
+
+    .web3-h6 {
+        font-size: 2rem;
+
+    }
+
+
+
+    .smart-contract-box-container {
+        max-width: 1200px;
+
+    }
+
+    .smart-contract-section {
+        max-width: 1000px;
+        padding: 2rem 0;
+    }
+
+    .smart-contract-box {
+        width: 500px;
+    }
+
+    .smart-contract-title {
+        font-size: 1.5rem;
+    }
+
+
+
+
+
+    .web3-card {
+        min-width: calc(33.33% - 10px);
+        margin: 5px;
+    }
+
+    .web3-slider-heading {
+        padding: 4rem 0;
+
+    }
+
+    .webSlider-heading-description {
+        max-width: 700px;
+        margin: 0 auto;
+        padding-top: 0;
+
+    }
+
+    .web3-slider-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .get-started {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+
+
+
+    #web3-launch {
+        max-width: 950px;
+        margin: 0 auto;
+    }
+
+    
+    .web3-launch-heading {
+        font-size: 3.5rem;
+        line-height: 60px;
+        padding: 4rem 0 2rem 0;
+        max-width: 900px;
+    }
+
+    .web3-launch-btn-wrapper {
+        gap: 1rem;
+    }
+
+    .web3-stack-heading {
+        max-width: 1200px;
+        font-size: 3rem;
+
+    }
+
+    #boxContainer {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+
+}

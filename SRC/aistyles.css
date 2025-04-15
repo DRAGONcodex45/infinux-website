@@ -101,7 +101,13 @@ body {
 
 
     .navbar {
-        height: 50px;
+        height: 60px;
+
+    }
+
+    .hamburger {
+        font-size: 1.85rem;
+        font-weight: 500;
 
     }
 

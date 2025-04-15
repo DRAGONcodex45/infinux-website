@@ -14,19 +14,24 @@ document.addEventListener("DOMContentLoaded", function () {
         navLinks.classList.remove("show");
     });
 
-    // Toggle dropdown in mobile view
-    dropdown.addEventListener("click", function (event) {
-        event.stopPropagation();
-        dropdown.classList.toggle("open");
+    // Open dropdown on hover
+    dropdown.addEventListener("mouseenter", function () {
+        dropdown.classList.add("open");
     });
 
-    // Close dropdown when clicking outside
+    // Close dropdown when mouse leaves
+    dropdown.addEventListener("mouseleave", function () {
+        dropdown.classList.remove("open");
+    });
+
+    // Close dropdown when clicking outside (keep this for mobile/touch devices)
     document.addEventListener("click", function (event) {
         if (!dropdown.contains(event.target)) {
             dropdown.classList.remove("open");
         }
     });
 });
+
 
  // 
 

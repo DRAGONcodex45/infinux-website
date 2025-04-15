@@ -1,0 +1,1670 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#web3-marketing-section-wrapper {
+    background: linear-gradient(to right, rgb(103, 58, 183), rgb(33, 150, 243));
+
+}
+
+
+#marketing-container-wrapper {
+    background-color: rgb(5, 7, 72);
+    margin: 6rem 0;
+}
+
+
+.marketing-container {
+    display: flex;
+    height: 100vh;
+
+}
+
+.marketing-sidebar {
+    box-sizing: border-box;
+    padding: 4rem 0;
+
+
+}
+
+.marketing-sidebar-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin-bottom: 10px;
+    height: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.marketing-sidebar-item .active {
+    background-color: rgb(103, 58, 183);
+}
+
+.marketing-sidebar-item:hover {
+    background-color: rgb(103, 58, 183);
+}
+
+.arrow {
+    font-size: 1.2em;
+    color: rgb(255, 195, 35);
+}
+
+.marketing-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+
+
+
+.text-content {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.text-content.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    display: none;
+}
+
+
+
+.marketing-h5 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.text-content p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.text-content button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    min-width: 200px;
+}
+
+.text-content button:hover {
+    background-color: #0056b3;
+}
+
+
+.faq-question {
+    font-family: 'Winky Sans', sans-serif;
+}
+
+
+
+
+@media screen and (min-width: 360px) {
+
+    .navbar {
+        height: 60px;
+    }
+
+
+
+
+
+    #logo {
+        height: 40px;
+    }
+
+    .web3-marketing-upper-text {
+        color: rgb(255, 86, 82);
+        padding: 3.5rem 0 2rem 0;
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+
+    .web3-marketing-h1 {
+        font-size: 2rem;
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        padding: 0 0 1.5rem 0;
+        max-width: 340px;
+        margin: 0 auto;
+        color: #ffffff;
+    }
+
+
+
+    .web3-marketing-hero-bigtext {
+        text-align: center;
+        padding-bottom: 1rem;
+        max-width: 340px;
+        margin: 0 auto;
+        font-size: 0.9rem;
+        color: #ffffff;
+    }
+
+
+    #web3-marketing-hero-image {
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0;
+    }
+
+    .web3-marketing-hero-btn-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .web3-marketing-hero-btn {
+        color: #ffffff;
+        height: 50px;
+        width: 250px;
+        border: 1px solid black;
+        border-radius: 6rem;
+        font-size: 0.9rem;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        margin: 1.25rem 0;
+        border-style: none;
+        background-image: linear-gradient(to right, rgb(255, 86, 82), rgb(255, 151, 79), rgb(255, 195, 35));
+    }
+
+    .web3-marketing-hero-btn:hover {
+        background-image: linear-gradient(to right, rgb(103, 58, 183), rgb(33, 150, 243));
+    }
+
+
+
+    .marketing-h2 {
+        font-family: 'League Spartan', sans-serif;
+        font-size: 1.85rem;
+        font-weight: 700;
+        text-align: center;
+        margin: 0 auto;
+        padding: 3rem 0;
+        max-width: 340px;
+        line-height: 32px;
+        color: rgb(5, 7, 72);
+        line-height: 24px;
+    }
+
+    .about-marketing-btn {
+        font-family: 'Poppins', sans-serif;
+        height: 50px;
+        width: 200px;
+        font-size: 0.9rem;
+        border: 2px solid #ffffff;
+        border-radius: 4rem;
+        border-style: none;
+        font-weight: 500;
+        color: #ffffff;
+        padding: 10px;
+        background-image: linear-gradient(to right, rgb(103, 58, 183), rgb(33, 150, 243));
+    }
+
+    .about-marketing-btn:hover {
+        background-image: linear-gradient(to right, rgb(255, 86, 82), rgb(255, 151, 79), rgb(255, 195, 35));
+    }
+
+    #about-marketing p {
+        text-align: center;
+        font-size: 0.9rem;
+        margin: 0 auto;
+        max-width: 340px;
+    }
+
+
+
+
+    .about-marketing-btn-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 2rem;
+    }
+
+
+
+
+
+
+    .web3-marketing-scroller {
+        background: rgb(5, 7, 72);
+        overflow: hidden;
+        padding: 0 0 4rem 0;
+        margin: 4rem 0;
+    }
+
+
+    .marketing-h3 {
+        text-align: center;
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 700;
+        font-size: 1.75rem;
+        padding: 3rem 0;
+        color: #ffffff;
+        line-height: 24px;
+        max-width: 330px;
+        margin: 0 auto;
+    }
+
+    .web3-marketing-scroller p {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 340px;
+        color: rgb(255, 195, 35);
+        font-size: 0.9rem;
+        padding-bottom: 2rem;
+
+    }
+
+
+    .web3-marketing-section-wrapper {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-top: 3rem;
+
+    }
+
+    /* Scrolling Content */
+    .web3-marketing-scrolling-content {
+        display: flex;
+        gap: 50px;
+        animation: scrollLeft 50s linear infinite;
+        width: max-content;
+        height: 110px;
+        border: 2px solid rgb(5, 7, 72);
+        border: 3px solid #ffffff;
+        background-color: rgb(5, 7, 72);
+        /* Ensures it extends beyond the screen */
+    }
+
+    /* Image & Text Block */
+    .web3-marketing-scroll-item {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 4px 15px;
+        min-width: 250px;
+
+        /* Ensures consistent sizing */
+    }
+
+
+    /* Image Styling */
+    #partnerImg {
+        width: max-content;
+        height: 70px;
+        object-fit: cover;
+
+    }
+
+    #partnerImg2 {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+
+    }
+
+
+
+    /* Infinite Scrolling Animation (Seamless Loop) */
+    @keyframes scrollLeft {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(-50%);
+        }
+
+    }
+
+    .web3-marketing-section-wrapper:hover .partner-scrolling-content {
+        animation-play-state: paused;
+    }
+
+
+
+
+    .partner-first-text {
+        color: #ffffff;
+        font-size: 1.8rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .partner-bigtext {
+        color: rgb(255, 240, 0);
+        font-size: 0.9rem;
+        text-align: center;
+
+    }
+
+
+    .marketing-h4 {
+        font-family: 'League Spartan', sans-serif;
+        max-width: 330px;
+        text-align: center;
+        margin: 0 auto;
+        font-weight: 700;
+        font-size: 1.75rem;
+        color: rgb(5, 7, 72);
+        line-height: 24px;
+
+    }
+
+    .web3-marketing-service p {
+        text-align: center;
+        font-size: 0.9rem;
+        max-width: 340px;
+        margin: 0 auto;
+        padding: 3rem 0;
+    }
+
+
+    .marketing-service-box {
+        height: 260px;
+        max-width: 330px;
+        /* background-color: rgb(243, 245, 255); */
+        border: 1px solid black;
+        border-radius: 7px;
+        font-size: 0.8rem;
+        padding: 10px;
+        margin: 0 auto;
+        border-style: none;
+        background-color: rgb(204, 204, 204);
+
+    }
+
+    .marketing-service-box:hover {
+        transform: scale(1.03);
+    }
+
+    .marketing-split1,
+    .marketing-split2,
+    .marketing-split3 {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .marketing-service-box-title {
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 500;
+        font-size: 1.25rem;
+        padding: 10px;
+        line-height: 24px;
+    }
+
+    .marketing-service-box p {
+        font-size: 0.9rem;
+        text-align: left;
+        padding: 10px;
+
+    }
+
+
+    #marketing-container-wrapper {
+        padding-bottom: 32rem;
+    }
+
+    .marketing-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .marketing-sidebar {
+        width: 340px;
+        margin: 0 auto;
+    }
+
+    .marketing-h5 {
+        font-size: 1.5rem;
+        line-height: 24px;
+    }
+
+    .text-content p {
+        font-size: 0.9em;
+    }
+
+
+    .marketing-content {
+        height: 400px;
+        width: 330px;
+        margin: 0 auto;
+    }
+
+    .marketing-hot-btn {
+        font-family: 'Poppins', sans-serif;
+        height: 55px;
+        width: 220px;
+        font-size: 0.8rem;
+        border: 2px solid #ffffff;
+        border-radius: 4rem;
+        border-style: none;
+        font-weight: 500;
+        color: #ffffff;
+        display: block;
+        margin: auto;
+        background-image: linear-gradient(to right, rgb(103, 58, 183), rgb(33, 150, 243));
+    }
+
+    .marketing-hot-btn:hover {
+        background-image: linear-gradient(to right, rgb(255, 86, 82), rgb(255, 151, 79), rgb(255, 195, 35));
+    }
+
+    .marketing-h6 {
+        font-size: 1.8rem;
+        font-weight: 700;
+        font-family: 'League Spartan', sans-serif;
+        text-align: center;
+        margin: 0 auto;
+        color: #ffffff;
+        padding: 4rem 0;
+        width: 330px;
+        line-height: 24px;
+    }
+
+    .marketing-container-smalltext {
+        font-size: 0.9rem;
+        text-align: center;
+        width: 340px;
+        color: rgb(255, 195, 35);
+
+    }
+
+
+    .marketing-benefit {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+
+    .benefit-heading {
+        font-family: 'League Spartan', sans-serif;
+        line-height: 32px;
+        font-size: 1.8rem;
+        text-align: center;
+        font-weight: 700;
+        max-width: 330px;
+        margin: 0 auto;
+        color: rgb(5, 7, 72);
+        line-height: 24px;
+    }
+
+    .benefit-smalltext {
+        width: 340px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 2rem;
+        font-size: 0.9rem;
+    }
+
+
+    .marketing-benefit-box {
+        width: 330px;
+        height: 350px;
+        border: 1px solid #000;
+        margin: 0 auto;
+        border-radius: 5px;
+        background-color: #ffffff;
+
+    }
+
+    .marketing-benefit-box img {
+        padding: 10px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .marketing-benefit-box-title {
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 500;
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+
+    .marketing-benefit-box p {
+        padding: 10px;
+    }
+
+    .marketing-benefit-btn-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 1rem 0;
+
+    }
+
+    .marketing-benefit-btn {
+        font-family: 'Poppins', sans-serif;
+        height: 55px;
+        width: 220px;
+        font-size: 0.8rem;
+        border-radius: 6px;
+        font-weight: 500;
+        color: #ffffff;
+        display: block;
+        margin: 0 auto;
+        background-image: linear-gradient(to right, rgb(103, 58, 183), rgb(33, 150, 243));
+    }
+
+    .marketing-benefit-btn:hover {
+        background-image: linear-gradient(to right, rgb(255, 86, 82), rgb(255, 151, 79), rgb(255, 195, 35));
+    }
+
+    #marketing-type-wrapper {
+        background: rgb(5, 7, 72);
+        padding: 4rem 0 4rem 0;
+        margin: 3.5rem 0;
+    }
+
+    .type-btn-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .type-btn {
+        width: 280px;
+        margin: 0 auto;
+        background: #ffffff;
+        color: #000;
+        font-weight: 500;
+    }
+
+
+    .type-btn:hover {
+        background-image: linear-gradient(to right, rgb(103, 58, 183), rgb(33, 150, 243));
+        color: #ffffff;
+    }
+
+    .type-heading {
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 700;
+        font-size: 1.8rem;
+        text-align: center;
+        max-width: 330px;
+        margin: auto;
+        line-height: 32px;
+        color: #ffffff;
+    }
+
+    #marketing-type-wrapper p {
+        font-size: 0.9rem;
+        text-align: center;
+        max-width: 340px;
+        margin: 0 auto;
+        color: rgb(255, 195, 35);
+        padding: 2rem 0;
+
+    }
+
+
+    .ready-heading {
+        font-family: 'League Spartan', sans-serif;
+        font-size: 2.2rem;
+        font-weight: 700;
+        text-align: center;
+        margin: 0 auto;
+        width: 330px;
+        line-height: 35px;
+        padding: 3rem 0 2rem 0;
+        color: rgb(5, 7, 72);
+    }
+
+    #ready p {
+        text-align: center;
+        margin: 0 auto;
+        width: 340px
+    }
+
+    .ready-btn-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+    .ready-btn {
+        background-image: linear-gradient(to right, rgb(103, 58, 183), rgb(33, 150, 243));
+        height: 40px;
+    }
+
+    .ready-btn:hover {
+        background-image: linear-gradient(to right, rgb(255, 86, 82), rgb(255, 151, 79), rgb(255, 195, 35));
+    }
+
+    .icon {
+        padding-top: 0;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 480px) {
+
+    .web3-marketing-h1 {
+        max-width: 450px;
+    }
+
+    .web3-marketing-hero-bigtext {
+        max-width: 450px;
+    }
+
+    .web3-marketing-h2 {
+        max-width: 450px;
+
+    }
+
+    .web3-marketing-about-bigtext {
+        max-width: 450px;
+
+    }
+
+
+
+
+
+    .marketing-h2 {
+
+        margin: 0 auto;
+        max-width: 450px;
+
+    }
+
+    .about-marketing-btn {
+
+        width: 210px;
+    }
+
+    #about-marketing p {
+        margin: 0 auto;
+        max-width: 450px;
+    }
+
+
+    .marketing-h3 {
+        max-width: 440px;
+        margin: 0 auto;
+    }
+
+    .web3-marketing-scroller p {
+        margin: 0 auto;
+        max-width: 450px;
+
+    }
+
+
+    .marketing-h4 {
+
+        max-width: 440px;
+        margin: 0 auto;
+
+    }
+
+    .web3-marketing-service-wrapper {
+        max-width: 450px;
+        margin: 0 auto;
+
+    }
+
+    .web3-marketing-service p {
+
+        max-width: 450px;
+        margin: 0 auto;
+
+    }
+
+    .marketing-service-box {
+        height: 270px;
+        max-width: 450px;
+        margin: 0 auto;
+
+    }
+
+
+
+
+    .marketing-sidebar {
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    .marketing-content {
+        height: 400px;
+        width: 440px;
+
+    }
+
+
+
+    .text-content p {
+        font-size: 1em;
+    }
+
+
+    .marketing-h6 {
+        font-size: 1.8rem;
+        font-family: 700;
+        text-align: center;
+        margin: 0 auto;
+        color: #ffffff;
+    }
+
+
+    #marketing-container-wrapper p {
+        font-size: 0.9rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .marketing-h6 {
+        margin: 0 auto;
+        width: 440px
+    }
+
+    .marketing-container-smalltext {
+        margin: 0 auto;
+        width: 450px;
+
+    }
+
+    .marketing-benefit-box {
+        width: 440px;
+        height: 280px;
+
+    }
+
+
+    .benefit-heading {
+        max-width: 440px;
+        margin: 0 auto;
+
+    }
+
+    .benefit-smalltext {
+        width: 450px;
+        margin: 0 auto;
+
+    }
+
+    .ready-heading {
+
+        margin: 0 auto;
+        width: 440px;
+
+    }
+
+    #ready p {
+        margin: 0 auto;
+        width: 450px;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 575px) {
+
+    .web3-marketing-hero-bigtext {
+        max-width: 550px;
+    }
+
+    .web3-marketing-about-bigtext {
+        max-width: 550px;
+
+    }
+
+
+
+    .marketing-h2 {
+
+        margin: 0 auto;
+        max-width: 550px;
+
+    }
+
+
+    #about-marketing p {
+        margin: 0 auto;
+        max-width: 550px;
+    }
+
+
+    .marketing-h3 {
+        max-width: 530px;
+        margin: 0 auto;
+        font-size: 1.85rem;
+
+    }
+
+    .web3-marketing-scroller p {
+        margin: 0 auto;
+        max-width: 550px;
+
+    }
+
+
+    .marketing-h4 {
+
+        max-width: 540px;
+        margin: 0 auto;
+
+    }
+
+    .web3-marketing-service p {
+
+        max-width: 550px;
+        margin: 0 auto;
+
+    }
+
+
+    .web3-marketing-service-wrapper {
+        max-width: 550px;
+        margin: 0 auto;
+
+    }
+
+    .marketing-service-box {
+        height: 240px;
+        max-width: 550px;
+        margin: 0 auto;
+        font-size: 1rem;
+    }
+
+
+    .marketing-sidebar {
+        width: 550px;
+        margin: 0 auto;
+    }
+
+
+    .marketing-content {
+        height: 400px;
+        width: 540px;
+        margin: 0 auto;
+    }
+
+    .marketing-h6 {
+        margin: 0 auto;
+        width: 500px
+    }
+
+    .marketing-container-smalltext {
+        margin: 0 auto;
+        width: 540px;
+
+    }
+
+
+    .marketing-benefit-box {
+        width: 540px;
+        height: 280px;
+
+    }
+
+    .marketing-benefit-btn {
+        font-size: 1rem;
+    }
+
+    .benefit-heading {
+        max-width: 530px;
+        margin: 0 auto;
+
+    }
+
+    .benefit-smalltext {
+        width: 540px;
+        margin: 0 auto;
+
+    }
+
+
+    .type-heading {
+        max-width: 480px;
+        margin: auto;
+        line-height: 32px;
+
+    }
+
+    #marketing-type-wrapper p {
+        max-width: 500px;
+        margin: 0 auto;
+
+
+    }
+
+    .ready-heading {
+
+        margin: 0 auto;
+        width: 530px;
+
+    }
+
+    #ready p {
+        margin: 0 auto;
+        width: 540px;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+    .web3-marketing-h1 {
+        max-width: 500px;
+        font-size: 2rem;
+    }
+
+
+    .web3-marketing-hero-bigtext {
+        max-width: 700px;
+    }
+
+    #web3-marketing-hero-image {
+        width: 400px;
+    }
+
+
+
+
+
+
+    .marketing-h2 {
+
+        margin: 0 auto;
+        max-width: 700px;
+
+    }
+
+
+    #about-marketing p {
+        margin: 0 auto;
+        max-width: 700px;
+    }
+
+    .about-marketing-btn-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .about-marketing-btn {
+        width: 200px;
+        font-size: 1rem;
+    }
+
+
+    .marketing-h3 {
+        max-width: 700px;
+        margin: 0 auto;
+        font-size: 1.85rem;
+
+
+    }
+
+    .web3-marketing-scroller p {
+        margin: 0 auto;
+        max-width: 600px;
+
+    }
+
+
+    .marketing-h4 {
+
+        max-width: 700px;
+        margin: 0 auto;
+        font-size: 2rem;
+
+    }
+
+    .web3-marketing-service p {
+
+        max-width: 600px;
+        margin: 0 auto;
+        font-size: 1rem;
+
+    }
+
+
+    .web3-marketing-service-wrapper {
+        max-width: 700px;
+        margin: 0 auto;
+
+    }
+
+
+
+    .marketing-service-box {
+        height: 250px;
+        max-width: 700px;
+
+    }
+
+    #marketing-container-wrapper {
+        padding: 0;
+
+    }
+
+
+    .marketing-container {
+        display: flex;
+        flex-direction: row;
+        max-width: 700px;
+        margin: 0 auto;
+        gap: 2rem;
+    }
+
+    .marketing-sidebar {
+        width: 300px;
+        max-height: 100vh;
+        overflow-y: auto;
+    }
+
+    .marketing-sidebar-item {
+        height: 50px;
+    }
+
+    .marketing-content {
+        width: 300px;
+        height: 410px;
+        margin: 4rem 0;
+    }
+
+
+    .marketing-h5 {
+        font-size: 2rem;
+    }
+
+    .marketing-h6 {
+        margin: 0 auto;
+        width: 550px;
+        font-size: 2rem;
+        line-height: 32px;
+    }
+
+    .marketing-container-smalltext {
+        margin: 0 auto;
+        width: 700px;
+
+    }
+
+
+    .marketing-benefit-box {
+        width: 680px;
+        height: 240px;
+
+    }
+
+    .benefit-heading {
+        max-width: 650px;
+        margin: 0 auto;
+        font-size: 2rem;
+
+    }
+
+    .benefit-smalltext {
+        width: 700px;
+        margin: 0 auto;
+        font-size: 1rem;
+
+    }
+
+    .marketing-type {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .type-btn-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .type-btn {
+        width: 300px;
+    }
+
+
+    .type-heading {
+        font-size: 2rem;
+
+    }
+
+    #marketing-type-wrapper p {
+        font-size: 1rem;
+
+
+    }
+
+    .ready-heading {
+
+        margin: 0 auto;
+        width: 700px;
+        font-size: 2.5rem;
+        line-height: 32px;
+
+    }
+
+    #ready p {
+        margin: 0 auto;
+        width: 600px;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 995px) {
+
+    .navbar {
+        height: 70px;
+    }
+
+
+    .web3-marketing-upper-text {
+        text-align: left;
+
+    }
+
+
+    .navbar {
+        max-width: 900px;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+
+    .web3-marketing-hero-section {
+        display: flex;
+        max-width: 900px;
+        margin: 0 auto;
+        gap: 3rem;
+
+
+
+    }
+
+    .web3-marketing-h1 {
+        text-align: left;
+        margin-left: 0;
+        font-size: 3rem;
+        line-height: 50px;
+        margin-bottom: 0;
+
+    }
+
+    .web3-marketing-hero-bigtext {
+        text-align: left;
+    }
+
+    .web3-marketing-hero-content {
+        width: 50%;
+    }
+
+
+    .web3-marketing-hero-btn-wrapper {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .web3-marketing-hero-btn {
+        height: 60px;
+        font-size: 1rem;
+    }
+
+    #web3-marketing-hero-image {
+        width: 400px;
+        height: auto;
+        margin: 2rem 0;
+        padding: 50px 0;
+    }
+
+
+
+    .marketing-h2 {
+        font-size: 2.5rem;
+        padding: 4rem 0;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    #about-marketing p {
+        margin: 0 auto;
+        max-width: 900px;
+        font-size: 1rem;
+    }
+
+
+
+    .marketing-h3 {
+        max-width: 900px;
+        margin: 0 auto;
+        font-size: 2.85rem;
+        line-height: 40px;
+
+
+    }
+
+    .web3-marketing-scroller p {
+        margin: 0 auto;
+        max-width: 600px;
+
+    }
+
+    .marketing-h4 {
+
+        max-width: 1000px;
+        margin: 0 auto;
+        font-size: 2.25rem;
+
+    }
+
+    .web3-marketing-service p {
+
+        max-width: 900px;
+        margin: 0 auto;
+        font-size: 1rem;
+
+    }
+
+    .web3-marketing-service-wrapper {
+        max-width: 950px;
+        margin: 0 auto;
+
+    }
+
+    .marketing-service-box {
+        height: 400px;
+        max-width: 350px;
+        font-size: 0.9rem;
+    }
+
+    .marketing-split1,
+    .marketing-split2,
+    .marketing-split3 {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+
+
+    .marketing-container {
+        max-width: 900px;
+        margin: 0 auto;
+        gap: 3rem;
+    }
+
+    .marketing-sidebar {
+        width: 400px;
+        max-height: 100vh;
+        overflow-y: auto;
+    }
+
+    .marketing-content {
+        width: 400px;
+    }
+
+
+    .marketing-h5 {
+        font-size: 2.25rem;
+    }
+
+    .marketing-h6 {
+        font-size: 2.25rem;
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .marketing-container-smalltext {
+        margin: 0 auto;
+        width: 800px;
+
+    }
+
+
+    .marketing-benefit {
+        max-width: 900px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    .marketing-benefit-box {
+        width: 280px;
+        height: 360px;
+
+    }
+
+    .marketing-benefit-btn {
+        width: 250px;
+    }
+
+
+    .benefit-heading {
+        font-size: 2.25rem;
+        max-width: 900px;
+    }
+
+    .benefit-smalltext {
+        width: 800px;
+        margin: 0 auto;
+
+    }
+
+
+
+
+
+    .type-heading {
+        max-width: 900px;
+        margin: auto;
+        line-height: 32px;
+
+    }
+
+    #marketing-type-wrapper p {
+        max-width: 800px;
+        margin: 0 auto;
+
+
+    }
+
+    .marketing-type {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .type-btn {
+        width: 280px;
+    }
+
+    .faq-wrapper {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .ready-heading {
+
+        margin: 0 auto;
+        width: 800px;
+        font-size: 3rem;
+        line-height: 40px;
+
+    }
+
+    #ready p {
+        margin: 0 auto;
+        width: 700px;
+
+    }
+
+    .ready-btn {
+        width: 300px;
+        height: 55px;
+        font-size: 1rem;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+
+
+    .navbar {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+
+
+    .web3-marketing-hero-section {
+        max-width: 1200px;
+        margin: 0 auto;
+        gap: 5rem;
+
+    }
+
+
+    #web3-marketing-hero-image {
+        width: 500px;
+
+    }
+
+    .web3-marketing-h2 {
+        font-size: 3rem;
+        line-height: 40px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 3.5rem 0;
+
+
+    }
+
+    .web3-marketing-about-bigtext {
+        max-width: 1200px;
+        font-size: 1rem;
+
+    }
+
+
+    #about-marketing p {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+
+    .marketing-h3 {
+        max-width: 1000px;
+        margin: 0 auto;
+        font-size: 3.5rem;
+        line-height: 60px;
+
+
+    }
+
+
+    .marketing-h4 {
+        font-size: 2.5rem;
+
+    }
+
+
+    .web3-h4 {
+        font-size: 2.75rem;
+    }
+
+    .web3-marketing-service-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .marketing-service-box {
+        height: 310px;
+        width: 300px;
+        font-size: 0.9rem;
+
+    }
+
+    .marketing-service-box-title {
+        font-size: 1.5rem;
+    }
+
+
+
+
+    .marketing-sidebar {
+        width: 400px;
+    }
+
+
+    .marketing-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .marketing-sidebar-item {
+        height: 60px;
+    }
+
+    .marketing-content {
+        width: 300px;
+        height: 480px;
+        margin: 4rem 0;
+    }
+
+    .text-content p {
+        font-size: 1rem;
+        width: 500px;
+    }
+
+
+    .marketing-h6 {
+        font-size: 2.5rem;
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .marketing-benefit {
+        max-width: 1200px;
+        margin: 0 auto;
+
+    }
+
+
+    .marketing-benefit-box {
+        width: 380px;
+        height: 320px;
+
+    }
+
+    .beneifit-heading {
+        font-size: 2.75rem;
+        width: 900px;
+    }
+
+
+    .type-heading {
+        font-size: 2.5rem;
+    }
+
+    .marketing-type {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+
+    .type-btn {
+        width: 350px;
+    }
+
+
+    .ready-heading {
+
+        margin: 0 auto;
+        width: 950px;
+        font-size: 4rem;
+        line-height: 58px;
+
+
+    }
+
+    #ready p {
+        margin: 0 auto;
+        width: 800px;
+
+    }
+
+
+
+
+}
